@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes commandes - JulieCreations{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1 class="mb-4">Mes commandes</h1>
+
+    {% if orders is empty %}
+        <div class="alert alert-info">
+            Vous n'avez pas encore passé de commande.
+            <a href="{{ path('app_product_index') }}" class="alert-link">Découvrir la boutique</a>
+        </div>
+    {% else %}
+        <div class="row">
+            {% for order in orders %}
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-light">
+                            <strong>Commande #{{ order.id }}</strong>
+                            <span class="float-end text-muted">{{ order.createdAt|date('d/m/Y') }}</span>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Total :</strong> {{ order.total|number_format(2) }} €</p>
+                            <p><strong>Articles :</strong> {{ order.orderLines|length }} produit(s)</p>
+                            
+                            <details>
+                                <summary class="text-primary" style="cursor: pointer;">Voir le détail</summary>
+                                <ul class="list-group mt-2">
+                                    {% for line in order.orderLines %}
+                                        <li class="list-group-item">
+                                            {{ line.product.title }} 
+                                            (x{{ line.quantity }})
+                                            {% if line.instructions %}
+                                                <br><small class="text-muted"><i class="fas fa-pen"></i> {{ line.instructions }}</small>
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <a href="{{ path('app_profile') }}" class="btn btn-secondary mt-3">Retour au profil</a>
+</div>
+{% endblock %}

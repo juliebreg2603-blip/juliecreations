@@ -1,0 +1,809 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Symfony\\site_juliecreations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\routes\\api_platform.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\routes\\api_platform.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Entity\\Order.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Entity\\Order.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\ApiOrderController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\ApiOrderController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\SecurityController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\SecurityController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Entity\\User.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Entity\\User.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\packages\\security.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\packages\\security.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\packages\\api_platform.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\packages\\api_platform.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\composer.lock||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:composer.lock||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\services.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\services.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\routes.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\routes.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\OrderController.php||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\OrderController.php||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\HomeController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\HomeController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\ApiProfileController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\ApiProfileController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Entity\\OrderLine.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Entity\\OrderLine.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\routes\\framework.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\routes\\framework.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\routes\\security.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\routes\\security.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\ProfileController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\ProfileController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\assets\\controllers\\hello_controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\controllers\\hello_controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\registration\\register.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\registration\\register.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Form\\RegistrationFormType.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Form\\RegistrationFormType.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\RegistrationController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\RegistrationController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\base.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\base.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\ProductcontrollerController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\ProductcontrollerController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\composer.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:composer.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\product\\index.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\product\\index.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Entity\\Product.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Entity\\Product.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\tests\\bootstrap.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\bootstrap.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\ApiResource\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ApiResource\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Controller\\CartController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Controller\\CartController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\packages\\routing.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\packages\\routing.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\config\\routes\\web_profiler.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\routes\\web_profiler.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\var\\log\\dev.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:var\\log\\dev.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Security\\AppAuthenticator.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Security\\AppAuthenticator.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\home.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\home.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\product\\category.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\product\\category.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\product\\new.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\product\\new.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\product\\edit.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\product\\edit.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\var\\cache\\dev\\ContainerDwjNOJx\\App_KernelDevDebugContainer.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:var\\cache\\dev\\ContainerDwjNOJx\\App_KernelDevDebugContainer.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\profile\\index.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\profile\\index.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\cart\\index.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\cart\\index.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\order\\history.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\order\\history.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\order\\confirmation.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\order\\confirmation.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\product\\show.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\product\\show.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Form\\ProductType.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Form\\ProductType.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\templates\\profile\\edit.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\profile\\edit.html.twig||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\src\\Form\\UserUpdateType.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Form\\UserUpdateType.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Symfony\\site_juliecreations\\migrations\\Version20260120153737.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:migrations\\Version20260120153737.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Entity\\Order.php",
+              "RelativeDocumentMoniker": "src\\Entity\\Order.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Entity\\Order.php",
+              "RelativeToolTip": "src\\Entity\\Order.php",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-03-17T15:45:21.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "api_platform.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\routes\\api_platform.yaml",
+              "RelativeDocumentMoniker": "config\\routes\\api_platform.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\routes\\api_platform.yaml",
+              "RelativeToolTip": "config\\routes\\api_platform.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:32:17.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiOrderController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ApiOrderController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\ApiOrderController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ApiOrderController.php",
+              "RelativeToolTip": "src\\Controller\\ApiOrderController.php",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-26T11:26:56.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SecurityController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\SecurityController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\SecurityController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\SecurityController.php",
+              "RelativeToolTip": "src\\Controller\\SecurityController.php",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCQAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-04-14T10:38:53.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "api_platform.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\packages\\api_platform.yaml",
+              "RelativeDocumentMoniker": "config\\packages\\api_platform.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\packages\\api_platform.yaml",
+              "RelativeToolTip": "config\\packages\\api_platform.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-01-27T15:56:47.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "routes.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\routes.yaml",
+              "RelativeDocumentMoniker": "config\\routes.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\routes.yaml",
+              "RelativeToolTip": "config\\routes.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-01-05T23:47:24.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "services.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\services.yaml",
+              "RelativeDocumentMoniker": "config\\services.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\services.yaml",
+              "RelativeToolTip": "config\\services.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:33:18.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "composer.lock",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\composer.lock",
+              "RelativeDocumentMoniker": "composer.lock",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\composer.lock",
+              "RelativeToolTip": "composer.lock",
+              "ViewState": "AgIAADwEAAAAAAAAAAAcwE0EAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-27T15:49:46.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Entity\\User.php",
+              "RelativeDocumentMoniker": "src\\Entity\\User.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Entity\\User.php",
+              "RelativeToolTip": "src\\Entity\\User.php",
+              "ViewState": "AgIAALkAAAAAAAAAAAAkwMIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-27T15:41:44.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "security.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\packages\\security.yaml",
+              "RelativeDocumentMoniker": "config\\packages\\security.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\packages\\security.yaml",
+              "RelativeToolTip": "config\\packages\\security.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:32:41.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T18:44:56.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\OrderController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\OrderController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\OrderController.php",
+              "RelativeToolTip": "src\\Controller\\OrderController.php",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-03-17T15:01:08.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\HomeController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\HomeController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\HomeController.php",
+              "RelativeToolTip": "src\\Controller\\HomeController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-05T23:40:51.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiProfileController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ApiProfileController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\ApiProfileController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ApiProfileController.php",
+              "RelativeToolTip": "src\\Controller\\ApiProfileController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-26T11:25:16.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderLine.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Entity\\OrderLine.php",
+              "RelativeDocumentMoniker": "src\\Entity\\OrderLine.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Entity\\OrderLine.php",
+              "RelativeToolTip": "src\\Entity\\OrderLine.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-03-17T15:55:45.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "framework.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\routes\\framework.yaml",
+              "RelativeDocumentMoniker": "config\\routes\\framework.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\routes\\framework.yaml",
+              "RelativeToolTip": "config\\routes\\framework.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:32:11.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "security.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\routes\\security.yaml",
+              "RelativeDocumentMoniker": "config\\routes\\security.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\routes\\security.yaml",
+              "RelativeToolTip": "config\\routes\\security.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:32:34.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfileController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ProfileController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\ProfileController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ProfileController.php",
+              "RelativeToolTip": "src\\Controller\\ProfileController.php",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-20T12:32:28.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "hello_controller.js",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\assets\\controllers\\hello_controller.js",
+              "RelativeDocumentMoniker": "assets\\controllers\\hello_controller.js",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\assets\\controllers\\hello_controller.js",
+              "RelativeToolTip": "assets\\controllers\\hello_controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-26T11:11:28.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "register.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\registration\\register.html.twig",
+              "RelativeDocumentMoniker": "templates\\registration\\register.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\registration\\register.html.twig",
+              "RelativeToolTip": "templates\\registration\\register.html.twig",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-20T15:52:45.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegistrationFormType.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Form\\RegistrationFormType.php",
+              "RelativeDocumentMoniker": "src\\Form\\RegistrationFormType.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Form\\RegistrationFormType.php",
+              "RelativeToolTip": "src\\Form\\RegistrationFormType.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-20T15:52:03.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegistrationController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\RegistrationController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\RegistrationController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\RegistrationController.php",
+              "RelativeToolTip": "src\\Controller\\RegistrationController.php",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-04-14T10:32:53.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "base.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\base.html.twig",
+              "RelativeDocumentMoniker": "templates\\base.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\base.html.twig",
+              "RelativeToolTip": "templates\\base.html.twig",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T22:39:43.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductcontrollerController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ProductcontrollerController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\ProductcontrollerController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\ProductcontrollerController.php",
+              "RelativeToolTip": "src\\Controller\\ProductcontrollerController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-05T19:13:13.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "composer.json",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\composer.json",
+              "RelativeDocumentMoniker": "composer.json",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\composer.json",
+              "RelativeToolTip": "composer.json",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T15:34:36.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "index.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\product\\index.html.twig",
+              "RelativeDocumentMoniker": "templates\\product\\index.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\product\\index.html.twig",
+              "RelativeToolTip": "templates\\product\\index.html.twig",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T21:47:23.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Product.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Entity\\Product.php",
+              "RelativeDocumentMoniker": "src\\Entity\\Product.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Entity\\Product.php",
+              "RelativeToolTip": "src\\Entity\\Product.php",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-05T18:53:21.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "bootstrap.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\tests\\bootstrap.php",
+              "RelativeDocumentMoniker": "tests\\bootstrap.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\tests\\bootstrap.php",
+              "RelativeToolTip": "tests\\bootstrap.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-12T12:24:56.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\ApiResource\\.gitignore",
+              "RelativeDocumentMoniker": "src\\ApiResource\\.gitignore",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\ApiResource\\.gitignore",
+              "RelativeToolTip": "src\\ApiResource\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T10:54:55.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\.gitignore",
+              "RelativeDocumentMoniker": "src\\Controller\\.gitignore",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\.gitignore",
+              "RelativeToolTip": "src\\Controller\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T10:54:51.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "routing.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\packages\\routing.yaml",
+              "RelativeDocumentMoniker": "config\\packages\\routing.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\packages\\routing.yaml",
+              "RelativeToolTip": "config\\packages\\routing.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:32:28.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartController.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Controller\\CartController.php",
+              "RelativeDocumentMoniker": "src\\Controller\\CartController.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Controller\\CartController.php",
+              "RelativeToolTip": "src\\Controller\\CartController.php",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-03-17T14:03:23.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "web_profiler.yaml",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\config\\routes\\web_profiler.yaml",
+              "RelativeDocumentMoniker": "config\\routes\\web_profiler.yaml",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\config\\routes\\web_profiler.yaml",
+              "RelativeToolTip": "config\\routes\\web_profiler.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-14T14:32:16.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "dev.log",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\var\\log\\dev.log",
+              "RelativeDocumentMoniker": "var\\log\\dev.log",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\var\\log\\dev.log",
+              "RelativeToolTip": "var\\log\\dev.log",
+              "ViewState": "AgIAAF0qAAAAAAAAAAAAALExAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T13:15:02.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppAuthenticator.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Security\\AppAuthenticator.php",
+              "RelativeDocumentMoniker": "src\\Security\\AppAuthenticator.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Security\\AppAuthenticator.php",
+              "RelativeToolTip": "src\\Security\\AppAuthenticator.php",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-05T23:15:00.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "category.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\product\\category.html.twig",
+              "RelativeDocumentMoniker": "templates\\product\\category.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\product\\category.html.twig",
+              "RelativeToolTip": "templates\\product\\category.html.twig",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T19:21:05.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "home.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\home.html.twig",
+              "RelativeDocumentMoniker": "templates\\home.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\home.html.twig",
+              "RelativeToolTip": "templates\\home.html.twig",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T21:00:50.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "new.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\product\\new.html.twig",
+              "RelativeDocumentMoniker": "templates\\product\\new.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\product\\new.html.twig",
+              "RelativeToolTip": "templates\\product\\new.html.twig",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T13:06:00.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "edit.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\product\\edit.html.twig",
+              "RelativeDocumentMoniker": "templates\\product\\edit.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\product\\edit.html.twig",
+              "RelativeToolTip": "templates\\product\\edit.html.twig",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T13:05:53.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App_KernelDevDebugContainer.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\var\\cache\\dev\\ContainerDwjNOJx\\App_KernelDevDebugContainer.php",
+              "RelativeDocumentMoniker": "var\\cache\\dev\\ContainerDwjNOJx\\App_KernelDevDebugContainer.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\var\\cache\\dev\\ContainerDwjNOJx\\App_KernelDevDebugContainer.php",
+              "RelativeToolTip": "var\\cache\\dev\\ContainerDwjNOJx\\App_KernelDevDebugContainer.php",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-03-17T15:27:21.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "history.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\order\\history.html.twig",
+              "RelativeDocumentMoniker": "templates\\order\\history.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\order\\history.html.twig",
+              "RelativeToolTip": "templates\\order\\history.html.twig",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-17T15:04:30.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "index.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\cart\\index.html.twig",
+              "RelativeDocumentMoniker": "templates\\cart\\index.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\cart\\index.html.twig",
+              "RelativeToolTip": "templates\\cart\\index.html.twig",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-17T14:06:15.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "index.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\profile\\index.html.twig",
+              "RelativeDocumentMoniker": "templates\\profile\\index.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\profile\\index.html.twig",
+              "RelativeToolTip": "templates\\profile\\index.html.twig",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-20T13:32:54.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "confirmation.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\order\\confirmation.html.twig",
+              "RelativeDocumentMoniker": "templates\\order\\confirmation.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\order\\confirmation.html.twig",
+              "RelativeToolTip": "templates\\order\\confirmation.html.twig",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-17T15:03:08.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "show.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\product\\show.html.twig",
+              "RelativeDocumentMoniker": "templates\\product\\show.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\product\\show.html.twig",
+              "RelativeToolTip": "templates\\product\\show.html.twig",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-05T20:54:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductType.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Form\\ProductType.php",
+              "RelativeDocumentMoniker": "src\\Form\\ProductType.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Form\\ProductType.php",
+              "RelativeToolTip": "src\\Form\\ProductType.php",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-05T19:27:50.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserUpdateType.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\src\\Form\\UserUpdateType.php",
+              "RelativeDocumentMoniker": "src\\Form\\UserUpdateType.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\src\\Form\\UserUpdateType.php",
+              "RelativeToolTip": "src\\Form\\UserUpdateType.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-20T14:55:28.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "edit.html.twig",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\templates\\profile\\edit.html.twig",
+              "RelativeDocumentMoniker": "templates\\profile\\edit.html.twig",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\templates\\profile\\edit.html.twig",
+              "RelativeToolTip": "templates\\profile\\edit.html.twig",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-20T14:59:37.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Version20260120153737.php",
+              "DocumentMoniker": "C:\\Symfony\\site_juliecreations\\migrations\\Version20260120153737.php",
+              "RelativeDocumentMoniker": "migrations\\Version20260120153737.php",
+              "ToolTip": "C:\\Symfony\\site_juliecreations\\migrations\\Version20260120153737.php",
+              "RelativeToolTip": "migrations\\Version20260120153737.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-01-20T15:38:33.492Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

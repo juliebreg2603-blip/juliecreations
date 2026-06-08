@@ -1,0 +1,82 @@
+{% extends 'base.html.twig' %}
+{% block title %}Nos Créations - JulieCreations{% endblock %}
+{% block body %}
+<div class="container mt-5">
+    <header class="text-center mb-5">
+        <h1 class="display-5 fw-bold">JulieCreations</h1>
+        <p class="text-muted italic small">Créations uniques & artisanales</p>
+    </header>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        {% for product in products %}
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm product-card position-relative overflow-hidden">
+                    
+                    {# Zone Image réduite à 220px pour plus de compacité #}
+                    <div class="card-img-container bg-light position-relative" style="height: 220px; overflow: hidden;">
+                        {% if product.imageName %}
+                            <img src="{{ asset('uploads/products/' ~ product.imageName) }}" 
+                                 class="card-img-top h-100 w-100" 
+                                 style="object-fit: cover;" 
+                                 alt="{{ product.title }}">
+                        {% else %}
+                            <div class="d-flex align-items-center justify-content-center h-100 text-muted bg-light">
+                                <div class="text-center small">
+                                    <i class="fas fa-image fa-2x mb-1"></i>
+                                    <p class="mb-0">Image à venir</p>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {# Bouton Panier qui apparaît au survol #}
+                        <div class="cart-overlay d-flex align-items-center justify-content-center">
+                            <form action="{{ path('app_cart_add', {'id': product.id}) }}" method="POST">
+                                <button type="submit" class="btn btn-dark rounded-pill px-3 shadow">
+                                    <i class="fas fa-shopping-cart me-2"></i>Ajouter
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-body text-center p-3">
+                        <h6 class="card-title fw-bold text-uppercase mb-1" style="letter-spacing: 1px;">
+                            {{ product.title }}
+                        </h6>
+                        <p class="card-text text-secondary small">{{ product.price }} €</p>
+                        
+                        {# Lien vers le détail toujours présent en fond #}
+                        <a href="{{ path('app_product_show', {'id': product.id}) }}" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<style>
+    /* Cartes plus compactes et élégantes */
+    .product-card {
+        transition: transform 0.3s ease;
+        border-radius: 8px;
+    }
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+    /* Overlay pour le bouton panier */
+    .cart-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.4); /* Voile léger */
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 2; /* Pour passer au-dessus du lien stretched */
+    }
+    .product-card:hover .cart-overlay {
+        opacity: 1;
+    }
+    /* Permet de cliquer sur le bouton malgré le lien global */
+    .cart-overlay form {
+        position: relative;
+        z-index: 3;
+    }
+</style>
+{% endblock %}

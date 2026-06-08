@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription - JulieCreations{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-primary text-white py-3 text-center">
+                    <h2 class="h4 mb-0">Créer un compte</h2>
+                </div>
+                <div class="card-body p-4">
+                    {{ form_errors(registrationForm) }}
+
+                    {{ form_start(registrationForm) }}
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                {{ form_row(registrationForm.firstname, {
+                                    'label': 'Prénom',
+                                    'attr': {'class': 'form-control', 'placeholder': 'Julie'}
+                                }) }}
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                {{ form_row(registrationForm.lastname, {
+                                    'label': 'Nom',
+                                    'attr': {'class': 'form-control', 'placeholder': 'weasley'}
+                                }) }}
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            {{ form_row(registrationForm.email, {
+                                'attr': {'class': 'form-control', 'placeholder': 'exemple@mail.com'}
+                            }) }}
+                        </div>
+
+                        <div class="mb-3">
+                            {{ form_row(registrationForm.plainPassword, {
+                                'label': 'Mot de passe',
+                                'attr': {'class': 'form-control'}
+                            }) }}
+                        </div>
+
+                        <div class="form-check mb-4">
+                            {{ form_widget(registrationForm.agreeTerms, {'attr': {'class': 'form-check-input'}}) }}
+                            {{ form_label(registrationForm.agreeTerms, 'J\'accepte les conditions d\'utilisation', {'label_attr': {'class': 'form-check-label'}}) }}
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">S'inscrire</button>
+                        </div>
+                    {{ form_end(registrationForm) }}
+                </div>
+                <div class="card-footer text-center py-3 bg-light">
+                    <p class="mb-0">Déjà un compte ? <a href="{{ path('app_login') }}">Connectez-vous</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

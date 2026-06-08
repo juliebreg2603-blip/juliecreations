@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+{% block title %}Mon Profil - JulieCreations{% endblock %}
+{% block body %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-primary text-white py-3">
+                    <h5 class="mb-0 fw-bold"><i class="fas fa-user-circle me-2"></i>Mon Compte</h5>
+                </div>
+                <div class="card-body p-4">
+                    <div class="text-center mb-4">
+                        <div class="bg-light d-inline-block rounded-circle p-4 mb-3">
+                            <i class="fas fa-user fa-4x text-primary"></i>
+                        </div>
+                        <h3>Bienvenue sur votre espace</h3>
+                        <p class="text-muted">Gérez vos informations personnelles ici.</p>
+                    </div>
+                    <div class="row mb-3 border-bottom pb-2">
+                        <div class="col-sm-4 text-muted">Adresse Email :</div>
+                        <div class="col-sm-8 fw-bold">{{ app.user.email }}</div>
+                    </div>
+                    <div class="row mb-3 border-bottom pb-2">
+                        <div class="col-sm-4 text-muted">Statut du compte :</div>
+                        <div class="col-sm-8">
+                            <span class="badge bg-success">Actif</span>
+                        </div>
+                    </div>
+                   
+                    <div class="row mb-3 border-bottom pb-2">
+                        <div class="col-sm-4 text-muted">Prénom :</div>
+                        <div class="col-sm-8 fw-bold">{{ app.user.firstname|default('Non renseigné') }}</div>
+                    </div>
+                    <div class="row mb-3 border-bottom pb-2">
+                        <div class="col-sm-4 text-muted">Nom :</div>
+                        <div class="col-sm-8 fw-bold">{{ app.user.lastname|default('Non renseigné') }}</div>
+                    </div>
+                    <div class="mt-4 d-flex gap-2 justify-content-center flex-wrap">
+                        <a href="{{ path('app_product_index') }}" class="btn btn-outline-secondary">
+                            <i class="fas fa-shopping-bag me-1"></i> Retour boutique
+                        </a>
+                        <a href="{{ path('app_order_history') }}" class="btn btn-success">
+                            <i class="fas fa-list me-1"></i> Mes commandes
+                        </a>
+                        <a href="{{ path('app_profile_edit') }}" class="btn btn-primary">
+                            <i class="fas fa-edit me-1"></i> Modifier mes infos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Commande validée - JulieCreations{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="alert alert-success text-center">
+        <h1><i class="fas fa-check-circle"></i> Commande validée !</h1>
+        <p>Merci pour votre commande. Numéro de commande : <strong>#{{ order.id }}</strong></p>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h5>Récapitulatif de votre commande</h5>
+        </div>
+        <div class="card-body">
+            <p><strong>Date :</strong> {{ order.createdAt|date('d/m/Y à H:i') }}</p>
+            <p><strong>Total :</strong> {{ order.total|number_format(2) }} €</p>
+
+            <h6 class="mt-4">Produits commandés :</h6>
+            <ul class="list-group">
+                {% for line in order.orderLines %}
+                    <li class="list-group-item">
+                        <strong>{{ line.product.title }}</strong> 
+                        ({{ line.quantity }} x {{ line.price }} €)
+                        = {{ (line.quantity * line.price)|number_format(2) }} €
+                        {% if line.instructions %}
+                            <br><small class="text-muted"><i class="fas fa-pen"></i> {{ line.instructions }}</small>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="{{ path('app_product_index') }}" class="btn btn-primary">Retour à la boutique</a>
+        <a href="{{ path('app_order_history') }}" class="btn btn-secondary">Voir mes commandes</a>
+    </div>
+</div>
+{% endblock %}

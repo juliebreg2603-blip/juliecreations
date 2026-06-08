@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container text-center py-5">
+    <h1 style="font-family: 'Georgia', serif; color: #d4af37; font-size: 3.5rem;">JulieCreations</h1>
+    <p class="lead italic mb-5">L'art floral et les bijoux fantaisies faits avec amour 🌸</p>
+
+    <div class="row mt-5">
+        <div class="col-md-6 mb-4">
+            <div class="p-5 shadow-sm" style="background: #fffafb; border-radius: 20px; border: 1px solid #fce4ec;">
+                <h3>✨ Mes Bijoux</h3>
+                <p>Découvrez mes bracelets et accessoires uniques.</p>
+<a href="{{ asset('index.php/bijoux') }}" class="btn btn-link">Voir la collection</a>            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="p-5 shadow-sm" style="background: #f8f9fa; border-radius: 20px;">
+                <h3>🖼️ Décorations</h3>
+                <p>Tableaux et cadres fleuris pour votre intérieur.</p>
+<a href="{{ asset('index.php/decorations') }}" class="btn btn-link">Voir les créations</a>            </div>
+        </div>
+    </div>
+</div>
+<div class="card mb-4 shadow-sm border-0" style="background-color: #fdf2f8;">
+    <div class="card-body">
+        <h3 class="h5">🎀 Bouquets & Roses en Satin</h3>
+        <p>Des fleurs éternelles faites main en ruban de satin.</p>
+<a href="{{ asset('index.php/satins') }}" class="btn btn-link">Voir les bouquets</a>    </div>
+</div>
+<hr class="mt-5">
+<div class="text-center pb-5">
+<a href="{{ asset('index.php/new') }}" class="btn btn-primary">➕ Ajouter un article</a></div>
+{% endblock %}

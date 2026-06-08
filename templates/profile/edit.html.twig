@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier mon profil - JulieCreations{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-primary text-white py-3">
+                    <h4 class="mb-0"><i class="fas fa-user-edit me-2"></i>Modifier mes informations</h4>
+                </div>
+                <div class="card-body p-4">
+                    
+                    {{ form_start(form) }}
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Votre adresse email (non modifiable)</label>
+                            {{ form_widget(form.email, {'attr': {'class': 'form-control bg-light'}}) }}
+                            {{ form_errors(form.email) }}
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Prénom</label>
+                                {{ form_widget(form.firstname, {'attr': {'class': 'form-control', 'placeholder': 'Votre prénom'}}) }}
+                                {{ form_errors(form.firstname) }}
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Nom</label>
+                                {{ form_widget(form.lastname, {'attr': {'class': 'form-control', 'placeholder': 'Votre nom'}}) }}
+                                {{ form_errors(form.lastname) }}
+                            </div>
+                        </div>
+                        
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="fas fa-save me-1"></i> Enregistrer les modifications
+                            </button>
+                            <a href="{{ path('app_profile') }}" class="btn btn-outline-secondary">
+                                Annuler et revenir
+                            </a>
+                        </div>
+
+                    {{ form_end(form) }}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
